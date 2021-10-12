@@ -1,0 +1,148 @@
+/* 用户信息 */
+.userinfo-head {
+  height: 200rpx;
+}
+.userinfo-head image {
+  position: absolute;
+  margin: 0 auto;
+  width: 100% !important;
+  height: 440rpx !important;
+  border-radius: 1em;
+}
+/* 用户信息 */
+
+.userinfo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 200rpx;
+  width: 94%;
+  margin: 0rpx 24rpx;
+  border-radius: 1em;
+}
+
+/* 头像 */
+
+.userinfo-avatar {
+  width: 140rpx;
+  height: 140rpx;
+  margin-left: 48rpx;
+  border-radius: 70rpx;
+  background: #f5f7f7;
+}
+
+.userinfo_right {
+  margin-left: 40rpx;
+  color: #fff;
+}
+
+.userinfo_nickname {
+  font-size: 48rpx;
+  font-weight: 600;
+  line-height: 1;
+  display: block;
+}
+
+/* 用户角色 */
+
+.userinfo_des_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16rpx;
+}
+
+.userinfo_role {
+  display: block;
+  font-size: 13px;
+}
+
+/* 更新信息按钮 */
+
+.btn-update {
+  font-size: 20rpx;
+  color: #fff;
+}
+
+.btn-update>button, .btn-exit {
+  height: 40rpx;
+  padding: 0rpx 16rpx;
+  margin-left: 24rpx;
+  border: 1rpx solid rgba(255, 255, 255, .2);
+  border-radius: 20rpx;
+  background-color: transparent;
+  box-sizing: border-box;
+  opacity: 0.6;
+  font-size: 12px;
+  color: #fff;
+  line-height: 32rpx;
+}
+
+.btn-update>button::after {
+  border: none;
+}
+
+/* tab选项卡 */
+
+.tab-bar {
+  margin-top: 60rpx;
+  height: 100rpx;
+  box-shadow: 0px 4px 8px #f7f7f7;
+  display: flex;
+}
+
+.tab-item {
+  flex: 1;
+  display: inline-block;
+  background: #fff;
+  color: #959595;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+
+/* 选中样式 */
+
+.tab-Selected {
+  position: relative;
+  color: #118fff;
+  font-weight: 500;
+}
+
+.tab-Selected::after {
+  content: '';
+  height: 4rpx;
+  width: 40rpx;
+  background: #118fff;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -20rpx;
+}
+
+/* 文章列表样式 */
+
+.list_container {
+  margin: 48rpx;
+}
+
+.list-item {
+  margin-top: 20rpx;
+}
+
+.list-item>text {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #4c4c4c;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.tips {
+  text-align: center;
+  color: #959595;
+  font-size: 15px;
+  line-height: 400rpx;
+}

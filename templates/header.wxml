@@ -1,0 +1,21 @@
+<!--/*
+ * 
+ * 微慕小程序开源版
+ * author: jianbo
+ * organization: 微慕  www.minapper.com
+ * github:    https://github.com/iamxjb/winxin-app-watch-life.net
+ * 技术支持微信号：iamxjb
+ * 开源协议：MIT
+ * Copyright (c) 2017  微慕 https://www.minapper.com All rights reserved.
+ *
+ */-->
+
+<template name="tempHeader">
+  <view class="header">
+    <image src="../../images/logo.png" style="height:200rpx;width:200rpx"></image>
+    <view style='margin-top:40rpx'>
+      小楼寂寞新雨月 也难如勾也难圆
+    </view>
+  </view>
+</template>
+<!-- header end -->
