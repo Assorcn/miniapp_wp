@@ -10,19 +10,16 @@
  */
 
 .topic-list-item {
-  height: 380rpx;
+  height: 240rpx;
   overflow: hidden;
   position: relative;
-
 }
 
 .cover {
-  width: 94%;
-  height: 340rpx;
+  width: 100%;
+  height: 240rpx;
   filter: brightness(80%);
   position: absolute;
-  margin: 24rpx;
-  border-radius: 1em;
 }
 
 .topic-content-brief {
@@ -58,81 +55,5 @@
 }
 
 .search-tips {
-  margin-top: 40rpx !important;
-  font-size: 24rpx;
-  color: rgb(228, 228, 228);
-}
-
-/*列表样式*/
-.post-list {
-  margin-bottom: 30rpx;
-}
-
-.post-item {
-  display: block;
-  margin-bottom:300rpx; 
-  border-bottom: 0rpx !important;
-  padding: 0 0 !important; 
-  overflow: hidden;
-}
-
-.post-img {
-  position: absolute;
-  width: 94%;
-  height: 280rpx;
-  border-radius: 0.8em;
-}
-
-.post-desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0rpx 22rpx;
-}
-
-.post-title {
-  position: absolute;
-  height: 80rpx;
-  margin: 160rpx 0rpx;
-}
-
-.post-title > text {
-  font-size: 28rpx;
-  line-height: 1.6;
-  font-weight: 700;
-  color: #f5f6f7;
-  text-overflow: -o-ellipsis-lastline;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.post-data {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  margin: 220rpx 0 20rpx 0rpx;
-  background-color:rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  padding: 5rpx 0 5rpx 15rpx;
-}
-
-.post-data >image {
-  width: 24rpx;
-  height: 24rpx;
-  margin-right: 6rpx;
-}
-
-.post-data >text {
-  color: #f5f6f7;
-  margin-right: 32rpx;
-  font-size: 20rpx;
-}
-
-.common-title {
-  width: 94%;
-  margin: 0rpx 0 30rpx 24rpx;
-  background: #fff;
+  font-size: 10px;
 }

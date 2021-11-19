@@ -12,7 +12,7 @@
 
 <template name="tempHeader">
   <view class="header">
-    <image src="../../images/logo.png" style="height:200rpx;width:200rpx"></image>
+    <image src="/images/ima.png" style="height:400rpx;width:400rpx"></image>
     <view style='margin-top:40rpx'>
       小楼寂寞新雨月 也难如勾也难圆
     </view>

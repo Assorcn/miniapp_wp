@@ -11,9 +11,8 @@
 @import "vendor/ZanUI/index.wxss";
 @import "images/iconfont/iconfont.wxss";
 .container {
-  padding: 0 24rpx;
-  background-color: #fff;
-  font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+  
+  margin: 24rpx;
 }
 
 .header {
@@ -54,7 +53,7 @@
 
 .no-more {
   color: #757575;
-  font-size: 22rpx;
+  font-size: 20rpx;
   line-height: 1.8rem;
   margin-bottom: 15rpx;
   text-align: center;
@@ -69,15 +68,14 @@
 
 .post-item {
   display: flex;
-  border-bottom: 1px solid #eee;
-  padding: 24rpx 0;
+  padding: 14rpx 0;
   overflow: hidden;
 }
 
 .post-img {
-  width: 200rpx;
-  height: 160rpx;
-  border-radius: 6rpx;
+  width: 100%;
+  height: 260rpx;
+  border-radius: 0.6em;
 }
 
 .post-desc {
@@ -86,22 +84,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: absolute;
+  margin-top: 140rpx;
 }
 
 .post-title {
-  height: 80rpx;
   margin-bottom: 20rpx;
 }
 
 .post-title>text {
-  font-size: 30rpx;
+  font-size: 26rpx;
   line-height: 1.6;
-  font-weight: 500;
-  color: #333;
+  font-weight: 700;
+  color: #fff;
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
+  padding-left: 14rpx;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
@@ -109,6 +109,9 @@
 .post-data {
   display: flex;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 5rpx 0 5rpx 15rpx;
 }
 
 .post-data>image {
@@ -118,7 +121,7 @@
 }
 
 .post-data>text {
-  color: #c4c4c4;
+  color: #fff;
   margin-right: 32rpx;
   font-size: 20rpx;
 }

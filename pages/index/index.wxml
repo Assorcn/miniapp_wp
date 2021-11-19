@@ -19,7 +19,7 @@
 </view>
 
 <!-- 轮播图 -->
-  <swiper indicator-dots="true" interval="10000" autoplay="true" indicator-color="rgba(0, 0, 0, .1)" indicator-active-color="rgba(255, 255, 255, 1)" circular="{{ true }}">
+  <swiper indicator-dots="true" interval="10000" autoplay="true" indicator-color="rgba(255,255,255, .3)" indicator-active-color="rgba(255,255,255, .8)">
     <block wx:key="id" wx:for="{{swipe_nav}}">
       <swiper-item id="{{item.id}}" index="{{index}}" data-type="{{item.type}}" data-appid="{{item.appid}}" data-path="{{item.path}}" data-url="{{item.url}}" bindtap="redictAppDetail">
         <image mode="aspectFill" src="{{item.image}}" />
@@ -37,12 +37,10 @@
   <view>
     <!-- 精选栏目 -->
     <view class="selected-nav" wx:if="{{topNav.length != 0}}">
-    <!--
       <view class='common-subtitle'>
         <view class='common-subtitle-left'>精选</view>
-        <view class='common-subtitle-right'>滑动查看</view>
+        <view class='common-subtitle-right'>滑动查看-></view>
       </view>
-      -->
       <!-- 栏目列表 -->
       <scroll-view scroll-x>
         <view class="selected-nav-list">
@@ -51,9 +49,12 @@
               <view class="selected-nav-item" catchtap="redictAppDetail" id="{{item.id}}" data-type="{{item.type}}" data-url="{{item.url}}" data-appid="{{item.appid}}" data-path="{{item.path}}">
                 <view>
                   <image mode="aspectFill" src="{{item.image}}"></image>
-                </view> 
-                  <text>{{item.title}}</text>            
-              </view>
+                </view>
+                <view>
+                  <text>{{item.title}}</text>
+                </view>
+              
+            </view>
 
             <view wx:if="{{ item.redirecttype == 'miniapp'}}">
               <view class="selected-nav-item">
@@ -61,7 +62,7 @@
                   <view>
                     <image mode="aspectFill" src="{{item.image}}"></image>
                   </view>
-                  <text>{{item.name}}</text>  
+                  <text>{{item.name}}</text>
                 </navigator>
               </view>
             </view>
@@ -82,10 +83,10 @@
         </button>
       </view>
     </form>
-  -->
+ -->
   </view>
   <!-- 文章列表 -->
-  <view class="container-index">
+  <view class="container">
     <!-- 列表template模板 -->
     <template is="tempCommonList" data="{{postsList:postsList,listAdsuccess:listAdsuccess}}" />
     <view style='display:{{isLoading?"block":"none"}}'>

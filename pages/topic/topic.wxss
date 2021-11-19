@@ -11,7 +11,7 @@
 .topic-img {
   width: 100%;
   height: 340rpx;
-  border-radius: 0.5em;
+  border-radius: 0.8em;
 }
 
 .topic-name-box {
@@ -38,6 +38,9 @@
 }
 
 /* 专题描述 */
+.topic-name text {
+  padding-left: 10rpx ;
+}
 
 .topic-brief {
   margin: 0rpx 20rpx;

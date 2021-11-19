@@ -12,7 +12,7 @@
 /* 轮播图 */
 swiper {
   position: relative;
-  margin: 0rpx 0rpx 40rpx;
+  margin: 0rpx 0rpx 20rpx;
   width: 100%;
   height: 400rpx;
   background: #fff;
@@ -69,7 +69,6 @@ font-weight: 500;
 }
 
 /* 搜索 */
-/*
 .search-box {
   display: flex;
   flex-direction: row;
@@ -116,156 +115,63 @@ font-weight: 500;
   border-bottom-right-radius: 0;
   border-right: 0;
 }
-*/
+
 /*模块标题样式 */
 .common-subtitle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 130rpx;
-  padding: 0 24rpx;
+  height: 100rpx;
   background: #fff;
 }
 
 .common-subtitle-left {
-  font-size: 34rpx;
+  font-size: 24rpx;
   color: #333;
   font-weight: 500;
 }
 
 .common-subtitle-right {
-  font-size: 26rpx;
+  font-size: 24rpx;
   font-weight: 400;
   color: #959595;
   margin-right: 6rpx;
 }
 
 /* 精选栏目菜单导航 */
-/*
 .selected-nav {
-  border-bottom: 16rpx solid #f5f7f7;
-}
-*/
-.selected-nav {
-  margin: 0 auto;
-  width: 94%;
-  border-radius: 0.8em;
+  margin: 0 0 24rpx 24rpx;
 }
 
 .selected-nav-list {
   display: flex;
   background: #fff;
-  border-radius: 0.8em;
   justify-content: space-between;
 }
 
 .selected-nav-item {
-  margin-right: 22rpx;
-  width: 240rpx;
+  margin-right: 16rpx;
   text-align: center;
-  border-radius: 0.8em;
 }
 
-
 .selected-nav-item image {
-  width: 240rpx;
+  width: 200rpx;
   height: 150rpx;
-  border-radius: 0.8em;
+  border-radius: 0.5em;
+  background: #fff;
 }
 
 .selected-nav-item text {
   display: block;
+  margin: -60rpx 0 40rpx 0;
   line-height: 26rpx;
   font-size: 26rpx;
   color: #fff;
-  margin: -60rpx 0rpx 40rpx;
 }
 
 .list-item-ad {
   margin-bottom: 16rpx;
-}
-
-/* 首页章列表样式 */
-.container-index {
-  margin: 0 auto;
-  padding-top: 30rpx;
-  width: 94%;
-  background-color: #fff;
-  font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
-}
-
-.post-list {
-  margin-bottom: 30rpx;
-}
-
-.post-item {
-  display: block;
-  margin-bottom:300rpx; 
-  border-bottom: 0rpx !important;
-  padding: 0 0 !important; 
-  overflow: hidden;
-}
-
-.post-img {
-  position: absolute;
-  width: 94%;
-  height: 280rpx;
-  border-radius: 0.8em;
-}
-
-.post-desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0rpx 22rpx;
-}
-
-.post-title {
-  position: absolute;
-  height: 80rpx;
-  margin: 160rpx 0rpx;
-}
-
-.post-title > text {
-  font-size: 28rpx;
-  line-height: 1.6;
-  font-weight: 700;
-  color: #f5f6f7;
-  text-overflow: -o-ellipsis-lastline;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.post-data {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  margin: 220rpx 0 20rpx 0rpx;
-  background-color:rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  padding: 5rpx 0 5rpx 15rpx;
-}
-
-.post-data >image {
-  width: 24rpx;
-  height: 24rpx;
-  margin-right: 6rpx;
-}
-
-.post-data >text {
-  color: #f5f6f7;
-  margin-right: 32rpx;
-  font-size: 20rpx;
-}
-
-.common-title {
-  width: 94%;
-  margin: 0rpx 0 30rpx 24rpx;
-  background: #fff;
 }
 
 /* 引导添加到我的小程序 */

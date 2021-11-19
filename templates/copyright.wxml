@@ -1,4 +1,3 @@
 <template name="tempCopyright">
-<view>{{webSiteName}}</view>
-<view>{{domain}}</view>
+<view>  © {{webSiteName}} {{domain}} </view>
 </template>

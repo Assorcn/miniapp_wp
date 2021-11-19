@@ -132,7 +132,7 @@
   margin-top: 20rpx;
 }
 
-.list-item>text {
+.list-item > text {
   font-size: 30rpx;
   font-weight: 500;
   color: #4c4c4c;

@@ -69,7 +69,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '“' + webSiteName + '”小程序,WordPress小程序',
+      title: '“' + webSiteName + '”小程序,基于微慕WordPress版小程序构建',
       path: 'pages/index/index',
       success: function (res) {
         // 转发成功
@@ -82,7 +82,7 @@ Page({
    // 自定义分享朋友圈
    onShareTimeline: function() {   
     return {
-      title:   '“' + webSiteName + '”小程序,WordPress小程序',
+      title:   '“' + webSiteName + '”小程序,基于微慕WordPress版小程序构建',
       path: 'pages/index/index',
       
     }
@@ -248,7 +248,7 @@ Page({
                     }
     
                     if (item.post_medium_image == null || item.post_medium_image == '') {
-                      item.post_medium_image = "../../images/logo.png";
+                      item.post_medium_image = "../../images/logo700.png";
                     }
                     item.date = util.cutstr(strdate, 10, 1);
                     return item;

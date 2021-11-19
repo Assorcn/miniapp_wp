@@ -8,7 +8,7 @@
  * Copyright (c) 2018 https://www.minapper.com All rights reserved.
  *
  */-->
-<import src="../../templates/copyright.wxml" />
+ <import src="../../templates/copyright.wxml" />
 
 <view class="search-head" style="display:{{display}}">
     <image src="/images/ss.png"></image>

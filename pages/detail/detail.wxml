@@ -220,7 +220,7 @@
         <template is="tempLoading" />
       </view>
       <view style="display:{{isLastPage?'block':'none'}}">
-        <view class="no-more">- 暂无更多评论 -</view>
+        <view class="no-more">- 无更多评论 -</view>
       </view>
     </view>
     <modal title="{{dialog.title}}" hidden="{{dialog.hidden}}" no-cancel bindconfirm="confirm">{{dialog.content}}</modal>
@@ -236,7 +236,7 @@
   <template is="login-popup" data="{{show: isLoginPopup, userInfo: userInfo}}"></template>
 
   <!--评论区-->
-  <view style="display:{{enableComment?'block':'none'}}">
+  <view style="display:{{enableComment?'block':'none'}}" style="margin-bottom: 50rpx;">
     <view class="menuBackground" catchtap="hiddenMenubox" style="display:{{menuBackgroup ? 'block' : 'none'}}"></view>
     <view style="display:{{display}}">
 

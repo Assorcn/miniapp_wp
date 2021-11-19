@@ -27,12 +27,13 @@
 
 <view class="topic-common-list" style="display:{{isSearchPage}}">
   <view class="topic-list-item">
-    <image src="https://dl.assor.cn/wp-content/uploads/img30-scaled.jpg" class="cover"  mode="aspectFill"></image>
+    <image src="../../images/website-search.png" class="cover"  mode="aspectFill"></image>
     <view class="topic-content-brief">
       <view class="topic-content-title">
+        <text>搜索关键字：</text>
         <text class="searchKey">{{searchKey}}</text>
       </view>
-      <view class="search-tips">全文搜索结果</view>
+      <text class="search-tips">* 本搜索是全文搜索</text>
     </view>
   </view>
 </view>
@@ -55,7 +56,7 @@
       </view>
 
     <view class="loadingmore" style="display:{{floatDisplay}}">
-      <view class="no-more" hidden="{{!isLastPage}}"> </view>
+      <view class="no-more" hidden="{{!isLastPage}}">- 无更多文章 -</view>
     </view>
 
   </view>
